@@ -17,8 +17,23 @@
       align-items: center;
       justify-content: center;
     }
-    footer {
+
+    footer a {
+      font-family: sans-serif;
+      background: rgb(238,66,102);
+      background: linear-gradient(45deg, rgba(238,66,102,1) 0%, rgba(255,210,63,1) 100%);
+      display: block;
+      padding: 20px 40px;
+      color: #fff;
       text-align: center;
+      text-decoration: none;
+      line-height: 100%;
+      font-weight: 700;
+    }
+
+    footer a:hover {
+      background: rgb(238,66,102);
+      background: linear-gradient(225deg, rgba(238,66,102,1) 0%, rgba(255,210,63,1) 100%);
     }
   </style>
   <script src="lib/p5.js"></script>
@@ -30,7 +45,7 @@
   <div class="container">
     <main></main>
     <footer>
-      <a href="#">Source Code / Código Fonte</a>
+      <a href="https://michellacerda.github.io/arkanoid-tcc/">Source Code // Código Fonte</a>
     </footer>
   </div>
 </body>
